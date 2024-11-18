@@ -18,7 +18,7 @@ function Header() {
             </span>
             
             {/* Dropdown Menu for Mobile */}
-            <div className="dropdownOption hidden absolute top-12 left-5 w-11/12 bg-white border border-gray-200 rounded-lg text-black shadow-lg grid-cols-1 gap-4 p-4">
+            <div className="dropdownOption hidden absolute top-20 left-5 w-11/12 bg-white border border-gray-200 rounded-lg text-black shadow-lg grid-cols-1 gap-4 p-4">
                 <a href="#AboutUs">
                     <button className="font-bold uppercase text-base text-black">About</button>
                 </a>
