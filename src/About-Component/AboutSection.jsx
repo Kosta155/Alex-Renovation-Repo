@@ -1,6 +1,5 @@
 import Button from "@mui/material/Button";
-//test 
-//test 2
+
 function AboutSection(){
     return(<>
     
