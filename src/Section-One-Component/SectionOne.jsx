@@ -3,20 +3,20 @@ import Button from "@mui/material/Button";
 function SectionOne() {
     return (
         <>
-            <section className="bg-sectionone-bg bg-cover bg-center h-[60vh] text-white flex items-start justify-start text-left lg:mt-24">
-                <div className="section-Content flex flex-col pl-10 lg:pl-40 pt-10 uppercase">
-                    <h2 className="text-[6.7rem]  font-bebas m-0 leading-none">ALEX</h2>
-                    <h1 className="text-[3.7rem] font-bebas mt-0 leading-tight">HOME RENOVATIONS</h1>
-                    <p className="text-[2.2rem] font-bebas mb-7 mt-2">20+ Years Serving — all across the GTA</p>
+            <section className="bg-sectionone-bg bg-cover bg-center h-[60vh] text-white flex flex-col items-center justify-center text-center lg:mt-24">
+                <div className="section-Content flex flex-col items-center px-5 lg:px-40 pt-10 uppercase">
+                    <h2 className="text-[4rem] sm:text-[5rem] lg:text-[6.7rem] font-bebas m-0 leading-none">ALEX</h2>
+                    <h1 className="text-[2.5rem] sm:text-[3rem] lg:text-[3.7rem] font-bebas mt-0 leading-tight">HOME RENOVATIONS</h1>
+                    <p className="text-[1.5rem] sm:text-[1.8rem] lg:text-[2.2rem] font-bebas mb-7 mt-2">20+ Years Serving — all across the GTA</p>
                     <Button
                         variant="contained"
                         sx={{
-                            height: '90px',
-                            width: '220px',
+                            height: '70px',
+                            width: '200px',
                             borderRadius: '5px',
                             backgroundColor: 'rgba(224, 88, 42, 1)',
                             color: 'white',
-                            fontSize: '22px',
+                            fontSize: '20px',
                             fontFamily: 'Bebas Neue, sans-serif',
                             border: 'none',
                             cursor: 'pointer',
@@ -24,7 +24,9 @@ function SectionOne() {
                             '&:hover': {
                                 backgroundColor: 'rgba(255, 255, 255, 0.9)',
                                 color: 'rgba(224, 88, 42, 1)'
-                            }
+                            },
+                            // Centering style
+                            mx: 'auto'
                         }}
                     >
                         CONTACT US
